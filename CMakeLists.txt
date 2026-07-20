@@ -58,7 +58,7 @@ find_package(SDL3_image CONFIG REQUIRED)
 find_package(SDL3_ttf CONFIG REQUIRED)
 
 add_executable(CRT_Visualizer
-        main.c
+        src/main.c
 )
 
 target_link_libraries(CRT_Visualizer
